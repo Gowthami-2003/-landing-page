@@ -1,0 +1,121 @@
+body {
+      background-color: #dc9b19;
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #dec06d;
+    margin: 2px solid;
+    border-radius: 5px;
+    margin-top: 150px;
+
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.store {
+    font-size: larger;
+    font-weight: bold;
+    color: red;
+    padding: 30px;
+}
+.store:hover {
+    color: rgb(243, 38,243);
+}
+.store {
+    color: rgb(109,175,10);
+}
+
+.store-c:hover {
+    color: red;
+}
+
+.menu ul li {
+    display:inline-block;
+}
+
+.menu ul li a {
+    padding: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.menu ul li a:hover {
+    color: #a08c7a;
+    text-decoration: underline;
+
+}
+
+.fruit {
+    color: black;
+}
+
+.baner {
+     
+    display: flex;
+} 
+ 
+.half-width {
+    width: 80%;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.now {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #ff820e;
+    border-radius: 5px;
+}
+.now:hover {
+    background-color: aliceblue;
+    color: black;
+
+}
+.allsit{
+    display: inline-block;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.catagori {
+    background-color: white;
+    text-align: center;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+strong {
+    color: rgb(244, 178, 11);
+    margin-left: 5px;
+    margin-right: 50px;
+}
+
+i {
+    color: rgb(244, 178, 11);
+}
+.half-width_2 {
+    width:60%;
+}
+.pic {
+    width:60%;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
